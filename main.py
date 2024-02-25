@@ -7,7 +7,7 @@ import sklearn
 
 app = Flask(__name__)
 
-model = pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+model = pickle.load(open('Multiple-linear_reg.pkl', 'rb'))
 
 @app.route('/',methods=['GET'])
 def Home():
